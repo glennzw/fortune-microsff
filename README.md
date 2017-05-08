@@ -11,6 +11,9 @@ Tiny utility to generate QoTD style fortune cookies from [@MicroSFF](https://twi
 ### Example:
 [![asciicast](https://asciinema.org/a/bsgbz3r80nj81qad4s0va4sv8.png)](https://asciinema.org/a/bsgbz3r80nj81qad4s0va4sv8?autoplay=1)
 
+![MicroSFF](https://github.com/glennzw/fortune-microsff/raw/master/example.gif)
+
+
 
 ### Credit
 Most of the Tweet fetching code is from: [GetOldTweets-python](https://github.com/Jefferson-Henrique/GetOldTweets-python)

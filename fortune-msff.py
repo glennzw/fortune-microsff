@@ -76,7 +76,8 @@ class TweetManager:
 				tweet = Tweet()
 
 				usernameTweet = tweetPQ("span.username.js-action-profile-name b").text();
-				txt = re.sub(r"\s+", " ", tweetPQ("p.js-tweet-text").text().replace('# ', '#').replace('@ ', '@'));
+				#txt = re.sub(r"\s+", " ", tweetPQ("p.js-tweet-text").text().replace('# ', '#').replace('@ ', '@'));
+				txt = tweetPQ("p.js-tweet-text").text()
 				retweets = int(tweetPQ("span.ProfileTweet-action--retweet span.ProfileTweet-actionCount").attr("data-tweet-stat-count").replace(",", ""));
 				favorites = int(tweetPQ("span.ProfileTweet-action--favorite span.ProfileTweet-actionCount").attr("data-tweet-stat-count").replace(",", ""));
 				dateSec = int(tweetPQ("small.time span.js-short-timestamp").attr("data-time"));
@@ -195,8 +196,8 @@ if __name__ == "__main__":
     TweetManager.getTweets(tweetCriteria, receiveBuffer)
     if len(tws) > 0:
 		tt,td = tws[random.randint(0,len(tws)-1)]
-		print tt
-		print "\t-" + td
+		print "\n%s\n\n\t-%s, (c) O. Westin @MicroSFF\n" %(tt,td)
+		#print "\t-" + td + ", (c) O. Westin @MicroSFF\n"
 		count = -2
     else:
 		count -=1
