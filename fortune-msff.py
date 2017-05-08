@@ -169,7 +169,7 @@ tws = []
 def receiveBuffer(tweets):
 			for t in tweets:
 				#print t.text
-				if t.text.startswith('"') and "**" not in t.text and "http" not in t.text:
+				if t.text.startswith('"') and "**" not in t.text and "http" not in t.text and "AdvenTale" not in t.text:
 					tws.append((t.text,t.date.strftime('%-d %B, %Y')))
 
 def strTimeProp(start, end, format, prop):
