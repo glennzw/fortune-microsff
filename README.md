@@ -5,15 +5,18 @@ Tiny utility to generate QoTD style fortune cookies from [@MicroSFF](https://twi
 ```
 ➜  ~ ./fortune-msff.py
 
-"Quantum effects makes it impossible to make perfect transfers." They looked at the hamster in the teleporter. "Did your son like his dog?"
-	-25 August, 2015
+"Why keep those? They're no use."
+"Dunno. I've had them a long time."
+"You'll feel better if you declutter."
+
+God agreed, and sent a plague.
+
+	-1 July, 2014, (c) O. Westin @MicroSFF
 ```
 ### Example:
-[![asciicast](https://asciinema.org/a/bsgbz3r80nj81qad4s0va4sv8.png)](https://asciinema.org/a/bsgbz3r80nj81qad4s0va4sv8?autoplay=1)
-
 ![MicroSFF](https://github.com/glennzw/fortune-microsff/raw/master/example.gif)
 
-
-
 ### Credit
+The amazing [@MicroSFF](https://twitter.com/MicroSFF) for his SciFi/Fantasy Tweet stories.
+
 Most of the Tweet fetching code is from: [GetOldTweets-python](https://github.com/Jefferson-Henrique/GetOldTweets-python)
